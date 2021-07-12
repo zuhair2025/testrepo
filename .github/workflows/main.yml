@@ -15,5 +15,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: ftp://162.213.251.12
-        ftp-username: zuhair
+        ftp-username: zuhair@solarisenco.com
         ftp-password: ${{ secrets.prod_FTP_PASSWORD }}
